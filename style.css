@@ -1,0 +1,147 @@
+/*Over Body*/
+* {
+  background-color: #e7e6e1;
+}
+
+.wrap {
+  margin: 0px 15%;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*Header Section*/
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sample {
+    width: 100%;
+}
+
+.navBar {
+  margin-bottom: 30px;
+  /* padding: 0px 15%; */
+  background-color: black;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px white solid;
+  border-radius: 4px;
+  padding: 10px 0;
+  margin: 15px 25px;
+  width: 12%;
+}
+
+.fast-contact {
+  display: inline-block;
+}
+
+ul {
+  margin-right: 20px;
+  width: 100%;
+}
+
+li {
+  float: left;
+  margin: 0px 40px;
+}
+
+a:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.myPic {
+  border-radius: 4px;
+  width: 200px;
+  height: auto;
+}
+
+/*Main Section*/
+main {
+  text-align: center;
+}
+
+hr {
+  width: 20%;
+  border: 2px solid black;
+  font-weight: bolder;
+}
+
+.main-pBox {
+  margin: 30px 5% 90px 5%;
+}
+
+/* .sklls {
+  width: 100%;
+} */
+
+.skillEmo {
+  width: 15%;
+  font-size: 4.5em;
+  margin: 30px 10px 0px 10px;
+}
+
+.margin-top {
+  margin-top: 90px;
+}
+
+.middle {
+  text-align: center;
+}
+
+table {
+  margin: 30px 10px 0px 10px;
+  /* border: 1px solid black; */
+  width: 100%;
+
+}
+
+td {
+  /* border: 1px solid black; */
+  width: 50%;
+}
+
+.port-pic {
+  width: 80%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* @media (max-width: 300px) {
+  .port-pic {
+      width: 8em;
+      height: 8em;
+  }
+} */
+
+.contact {
+  margin-top: 90px;
+  /* padding: 0px 15%; */
+  background-color: black;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footEmo {
+  font-size: 3em;
+  color: white;
+  margin: 0 15px;
+  background-color: black;
+}
+
+.ending {
+  margin-top: 15px;
+  color:  white;
+  background-color: black;
+}
