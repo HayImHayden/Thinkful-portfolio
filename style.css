@@ -1,10 +1,15 @@
 /*Over Body*/
-* {
+html {
   background-color: #e7e6e1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fontBigger {
+  font-size: 1.2em;
 }
 
 .wrap {
-  margin: 0px 15%;
+  margin: 0 15%;
 }
 
 h1 {
@@ -13,6 +18,10 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+h3 {
+  font-weight: lighter;
 }
 
 /*Header Section*/
@@ -27,20 +36,22 @@ header {
 
 .navBar {
   margin-bottom: 30px;
+  padding: 2px 0;
   /* padding: 0px 15%; */
   background-color: black;
   text-align: center;
 }
 
-a {
+.navBarLink {
+  font-size: 2vw;
   display: inline-block;
   text-decoration: none;
   color: white;
   border: 2px white solid;
   border-radius: 4px;
-  padding: 10px 0;
-  margin: 15px 25px;
-  width: 12%;
+  padding: 10px 10px;
+  margin: 15px 20px;
+  width: 10%;
 }
 
 .fast-contact {
@@ -54,10 +65,10 @@ ul {
 
 li {
   float: left;
-  margin: 0px 40px;
+  margin: 0 40px;
 }
 
-a:active {
+.navBarLink:active {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -79,17 +90,28 @@ hr {
 }
 
 .main-pBox {
-  margin: 30px 5% 90px 5%;
+  margin: 30px 12% 90px 12%;
+  display: inline-block;
+  font-size: 1.2em;
 }
+
+.main-pBox > ol{
+  list-style: none;
+  margin-right: 45px;
+}
+
+/* .aboutP {
+  text-align: left;
+} */
 
 /* .sklls {
   width: 100%;
 } */
 
 .skillEmo {
-  width: 15%;
+  width: 12%;
   font-size: 4.5em;
-  margin: 30px 10px 0px 10px;
+  margin: 30px 10px 0 10px;
 }
 
 .margin-top {
@@ -101,7 +123,7 @@ hr {
 }
 
 table {
-  margin: 30px 10px 0px 10px;
+  margin: 30px 10px 0 10px;
   /* border: 1px solid black; */
   width: 100%;
 
@@ -130,7 +152,7 @@ td {
   /* padding: 0px 15%; */
   background-color: black;
   text-align: center;
-  padding: 40px 0;
+  padding: 25px 0;
 }
 
 .footEmo {
@@ -140,8 +162,22 @@ td {
   background-color: black;
 }
 
+.opening {
+  margin-bottom: 15px;
+  color:  white;
+  background-color: black;
+}
+
 .ending {
   margin-top: 15px;
   color:  white;
   background-color: black;
 }
+
+.highlight {
+  text-decoration: underline;
+}
+
+/* .footLink {
+  margin: 2px 4px;
+} */
